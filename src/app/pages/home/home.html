@@ -1,0 +1,27 @@
+<div class="mainContainer">
+    <!-- <app-main-sidebar></app-main-sidebar> -->
+    <app-main-sidebar [style.width.px]="sidebarWidth"></app-main-sidebar>
+    <app-resizable-container
+        [minWidth]="200" 
+        [maxWidth]="500" 
+        (widthChange)="onWidthChange($event)"
+        style="height: 100%;"
+    ></app-resizable-container>
+    <div class="mainContainer__contentContainer">
+        <div class="mainContainer__contentContainer__up">
+            <div class="mainContainer__contentContainer__up__left"></div>
+            <div class="mainContainer__contentContainer__up__middle"></div>
+            <div class="mainContainer__contentContainer__up__right"></div>
+        </div>
+        <div class="mainContainer__contentContainer__middle">
+            <div class="mainContainer__contentContainer__middle__left"></div>
+            <div class="mainContainer__contentContainer__middle__middle"></div>
+            <div class="mainContainer__contentContainer__middle__right"></div>
+        </div>
+        <div class="mainContainer__contentContainer__down">
+            <div class="mainContainer__contentContainer__down__left"></div>
+            <div class="mainContainer__contentContainer__down__middle"></div>
+            <div class="mainContainer__contentContainer__down__right"></div>
+        </div>
+    </div>
+</div>

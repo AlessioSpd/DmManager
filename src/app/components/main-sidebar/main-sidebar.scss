@@ -1,0 +1,61 @@
+:host {
+    width: 400px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    
+    &__left {
+        width: 60px;
+        background-image: url(../../../assets/images/v2/NSX.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    &__middle {
+        flex-grow: 1;
+        width: 60px;
+        background-image: url(../../../assets/images/v2/NMD.jpg);
+        background-size: auto 100%;
+    }
+}
+
+.middleContainer {
+    flex-grow: 1;
+    background-image: url(../../../assets/images/v2/texture.jpg);
+    background-repeat: repeat;
+    border-image-repeat: stretch;
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+        width: 60px;
+        background-image: url(../../../assets/images/v2/MSX.jpg);
+    }
+
+    &__middle {
+        flex-grow: 1;
+    }
+}
+
+.downContainer {
+    background-color: aquamarine;
+    height: 60px;
+    display: flex;
+
+
+    &__left {
+        width: 60px;
+        background-image: url(../../../assets/images/v2/SSX.jpg);
+    }
+    &__middle {
+        flex-grow: 1;
+        background-image: url(../../../assets/images/v2/SMD.jpg);
+    }
+}

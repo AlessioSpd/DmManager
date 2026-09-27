@@ -1,0 +1,77 @@
+.mainContainer {
+    width: 100%;
+    height: 100vh;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+
+    &__contentContainer {
+        flex-grow: 1;
+        background-color: green;
+        display: flex;
+        flex-direction: column;
+        width: 60px;
+        background-image: url(../../../assets/images/v2/texture.jpg);
+
+        &__up {
+            height: 60px;
+            background-image: url(../../../assets/images/v2/NMD_2.jpg);
+            display: flex;
+
+            &__left{
+                width: 60px;
+            }
+
+            &__middle{
+                flex-grow: 1;
+            }
+
+            &__right{
+                width: 60px;
+                background-image: url(../../../assets/images/v2/NDX_2.jpg);
+            }
+        }
+
+        &__middle {
+            flex-grow: 1;
+            background-image: url(../../../assets/images/v2/texture.jpg);
+            display: flex;
+
+            &__left{
+                width: 60px;
+            }
+
+            &__middle{
+                flex-grow: 1;
+                
+            }
+
+            &__right{
+                width: 60px;
+                background-image: url(../../../assets/images/v2/MDX_2.jpg);
+            }
+        }
+
+        &__down {
+            height: 60px;
+            background-color: red;
+            background-image: url(../../../assets/images/v2/SMD_2.jpg);
+            background-size: auto 100%;
+            display: flex;
+
+            &__left{
+                width: 60px;
+            }
+
+            &__middle{
+                flex-grow: 1;
+                
+            }
+
+            &__right{
+                width: 60px;
+                background-image: url(../../../assets/images/v2/SDX_2.jpg);
+            }
+        }
+    }
+}
