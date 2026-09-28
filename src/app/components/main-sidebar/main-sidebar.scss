@@ -41,6 +41,34 @@
 
     &__middle {
         flex-grow: 1;
+
+        &__itemContainer {
+            height: 100%;
+            margin-right: 30px;
+            display: flex;
+            flex-direction: column;
+
+            &__logoContainer {
+                width: 100%;
+                height: 60px;
+                background-image: url(../../../assets/icons/logo.png);
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+            }
+
+            &__separatorContainer {
+                width: 100%;
+                height: 50px;
+                // background-color: gray;
+                background-image: url(../../../assets/images/v2/separator.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+            }
+
+        }
+
     }
 }
 

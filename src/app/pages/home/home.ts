@@ -9,7 +9,7 @@ import { ResizableContainer } from '../../components/resizable-container/resizab
   templateUrl: './home.html',
 })
 export class Home {
-  sidebarWidth: number = 330; // Stato della larghezza conservato in Home
+  sidebarWidth: number = 400; // Stato della larghezza conservato in Home
 
   // Aggiorna la larghezza quando il resizer emette il nuovo valore
   onWidthChange(newWidth: number): void {
