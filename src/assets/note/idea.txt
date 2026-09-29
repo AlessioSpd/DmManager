@@ -1,0 +1,36 @@
+- Feedback
+    Una cosa che ogni tanto trovo legnosa è navigazione sulle app
+    Ti fa fare troppi passaggi 
+    E il fatto che non ci sia un cloud gratis
+
+- Note
+    text color: #615549
+
+- Structure & Feature
+    - Campagna
+        - Lore
+        - NPC
+        - Sezione Giocatori
+            - Lore PG
+        - Bestiario Di Campagna
+        - Item di Campagna
+        - Mappa di campagna
+            - Luoghi e note di Luoghi
+        - Note di campagna
+        - Canvas / Mappa mentale
+        - Linea temporale
+    - Integrazione con 5etools
+        - Import di Json per nemici, oggetti e tanto altro
+    - Tiro di dadi
+
+    - Sidebar
+        - Logo
+        - Campagna +
+            - Nome campagna 1
+            - Nome campagna 2
+        --------------
+        - Dashboard
+            - Elenco campagne
+            - Calendario
+        - Bestiario e Oggettistica Globale
+        

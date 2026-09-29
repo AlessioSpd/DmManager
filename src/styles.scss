@@ -3,3 +3,43 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@font-face {
+  font-family: 'HolidaysHomework';
+  src: url(./assets/fonts/Holidays\ Homework.ttf) format('ttf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'HolidaysHomework-Bold';
+  src: url(./assets/fonts/Holidays\ Homework.ttf) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Light';
+  src: url(./assets/fonts/Comfortaa-Light.ttf) format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Regular';
+  src: url(./assets/fonts/Comfortaa-Regular.ttf) format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Bold';
+  src: url(./assets/fonts/Comfortaa-Bold.ttf) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
