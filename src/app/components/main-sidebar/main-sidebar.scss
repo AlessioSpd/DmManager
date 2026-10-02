@@ -69,9 +69,67 @@
             &__campaignContainer {
                 width: 100%;
                 height: auto;
-                // background-color: red;
                 font-family: Comfortaa-Regular;
-                color: #615549;
+                // background-color: coral;
+                display: flex;
+                flex-direction: column;
+
+                &__upperBar {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    // background-color: yellow;
+
+                    &__label {
+                        // background-color: coral;
+                        font-weight: 700;
+                        color: #615549;
+                    }
+
+                    &__button {
+                        width: 60px;
+                        // background-color: red;
+                        display: flex;
+                        justify-content: center;
+                        
+                        &__icon {
+                            width: 20px;
+                            border-radius: 25px;
+                            height: 100%;
+                            // background-color: yellow;
+                            background-image: url(../../../assets/icons/plus_icon.png);
+                            background-size: contain;
+                            background-repeat: no-repeat;
+                            background-position: center;
+
+                            &:hover {
+                                background-color: #473e351c;
+                            }
+
+                            &:active {
+                                background-color: #61554900;
+                            }
+                        }
+                    }
+                }
+
+                &__campaignList {
+                    min-height: 50px;
+                    background-color: green;
+                }
+
+                // &__label{
+                //     width: 50%;
+                //     align-self: center;
+                //     background-color: yellow;
+                // }
+
+                // &__button {
+                //     width: 30px;
+                //     background-color: gray;
+                //     text-align: end;   
+                // }
+                
             }
 
         }
